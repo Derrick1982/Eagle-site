@@ -1,0 +1,301 @@
+
+
+body{
+    background:#fff;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*
+h1{
+    background: white;
+    margin: 0px 20px ;
+    padding-top: 10px;
+    
+    
+    
+}
+
+h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:3.0em;    
+}
+*/
+
+
+
+.ons {
+   margin-bottom: 20px;
+    
+}
+
+
+.navbar-default{
+    
+    padding:14px 15px 0px 0px;
+    margin:0px;
+    border:none;
+    text-transform: uppercase;
+    background: white;
+    }
+
+#eagle-pic{
+    
+    display:inline-block;
+    height:70px;
+    width: 200px;
+    margin-top: 1px;
+    padding-top: 0px;
+    
+}
+
+
+.navbar-brand{
+    float:none;
+    height: 30px; 
+    padding: 5px 5px; 
+    font-size: 18px; 
+    line-height: 20px;
+}
+
+.navbar-default .navbar-brand  {
+    color: black;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color:#b5b1b1;
+}
+    
+
+.jumbotron{
+    padding-bottom: 0px;
+}
+
+.jumbo-box{
+    text-align: center;   
+}     
+
+
+.jumbo-text{
+    padding-top: 200px;
+    color: white;
+    background-color: #eee;
+    background-image: url(pics/hero5.jpg);
+    background-size: cover;
+    height:100vh;   
+}
+
+
+
+.container{
+  padding-left: 15px;
+  padding-right:15px;
+  margin-right: auto;
+  margin-left: auto;  
+
+}
+
+
+.adres{
+    margin-bottom: 60px;
+    
+    
+    
+}
+
+.hours{
+    
+    background-image: url(pics/hero5.jpg);
+   
+   
+}
+
+
+p.dag{
+    font-weight: 700;
+    font-size: 25px;
+    padding-top:0px;
+}
+
+.dagen{
+    width: 137px;
+    height: 137px;
+    border-radius: 50%;
+    background: #acde06;
+    
+    padding-top:25px;
+    margin: 40px 20px 40px 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.dagen .dag{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.center{
+    margin: 0 auto;
+    width: 80%;
+    
+}
+
+h1{
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+
+/*
+ontainer-head{
+    padding-top:150px;
+    padding-bottom:60px;
+    margin: 70px 0px 0px 0px;
+    
+    text-align: center; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/hero5.jpg);
+    background-size:cover;
+    background-position:center;
+    height:100vh; 
+    background-attachment: fixed;
+}
+*/
+
+/*
+.locatie{
+    background: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin:0px 20px 4px 20px;
+    
+
+}
+*/
+
+
+
+/*
+.text-box{
+    color: black;
+    text-transform: uppercase;
+    padding-top: 1px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 0.2em;
+    
+    
+}
+*/
+
+/*
+
+#eagle-pic{
+    margin: auto;
+    display:block;
+    height: 80px;
+    width: 250px;
+    margin-bottom: 20px;
+    margin-top:90px;
+    padding-left:10px;
+    padding-right: 10px; 
+}
+
+.row{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+*/
+
+
+.fa{
+    margin-right: 10px;
+    font-size: 21px;
+}
+
+.fa-check-square-o{
+    font-size: 100px;
+}
+
+
+/*----SHOWCASE-----*/
+.section-eagle ul{
+    padding: 0px;
+    
+    
+}
+
+
+
+.eagle-showcase {
+    list-style: none;
+    width: 100%; 
+    margin: 0 auto;
+}
+
+
+
+.eagle-showcase li {
+    display:block;
+    float: left;
+    width:25%;
+    
+    }
+
+.eagle-pic {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    
+}
+
+.eagle-pic img {
+    opacity: 0.7;
+    width: 100%;
+    height:auto;
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+
+}
+
+.eagle-pic img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+#map, #map2, #map3{
+    width:100%;
+    height:400px;    
+}
+
+.locatie{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.scroll{
+    padding: 80px 0px;
+    margin:0 auto;
+}
